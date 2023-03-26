@@ -1,0 +1,59 @@
+.stories {
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    width: 614px;
+    height: 118px;
+    display:flex ;
+    justify-content: space-evenly ;
+    align-items: center; 
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.str {
+    width: 60px;
+    height: 100px;
+    position: relative;
+    margin-left: 12px;
+}
+.bolinha {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    z-index: 1;
+}
+.backgound {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    z-index: 0;
+    
+}
+.str p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.setinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    z-index: 3;
+}
+

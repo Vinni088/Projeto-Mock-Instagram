@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: Roboto;
+}
+.Tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Conteudo-da-pagina {
+    width: 40%;
+    margin-right: 25%;
+    padding-top: 88px;
+    border: 1px solid red;
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.postagens {
+    background-color: darkgray;
+    width: 100%;
+    height: 1000px;
+    margin-top: 24px;
+    border: 1px solid red;
+}
