@@ -1,8 +1,50 @@
-@media (max-width: 935px) {
+@media (max-width: 935px) and (min-width: 614px){
 	.invisivel {
         display: none;
     }
     .menu-lateral {
         display: none;
+    }
+}
+@media (max-width: 613px) {
+    .invisivel {
+        display: none;
+    }
+    .menu-lateral {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    .icone1 {
+        padding-left: 8px;
+        padding-right: 0px;
+        margin-top: 0px;
+        border-right: 0px solid #DBDBDB;
+    }
+    .icone{
+        padding-right: 8px;
+    }
+    .stories {
+        display: none;
+    }
+    .stories-mobile {
+        display: inline;
+    }
+    .conteudo-da-pagina {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .feed {
+        width: 100%;
+    }
+    .post {
+        width: 100%;
     }
 }

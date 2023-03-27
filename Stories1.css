@@ -102,4 +102,13 @@
     right: 10px;
     z-index: 3;
 }
+.stories-mobile {
+    width: 100%;
+    height: 100px;
+    display: none;
+    align-items: center; 
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
 
