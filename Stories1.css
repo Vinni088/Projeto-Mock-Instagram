@@ -10,7 +10,53 @@
     position: relative;
     overflow: hidden;
 }
-
+.posição-stories {
+    position: absolute;
+}
+.posição1 {
+    top: 10px;
+    left: 15px;
+}
+.posição2 {
+    top: 10px;
+    left: 95px;
+}
+.posição3 {
+    top: 10px;
+    left: 175px;
+}
+.posição4 {
+    top: 10px;
+    left: 255px;
+}
+.posição5 {
+    top: 10px;
+    left: 335px;
+}
+.posição6 {
+    top: 10px;
+    left: 415px;
+}
+.posição7 {
+    top: 10px;
+    left: 495px;
+}
+.posição8 {
+    top: 10px;
+    left: 575px;
+}
+.posição9 {
+    top: 10px;
+    left: 655px;
+}
+.posição10 {
+    top: 10px;
+    left: 735px;
+}
+.posição11 {
+    top: 10px;
+    left: 815px;
+}
 .str {
     width: 60px;
     height: 100px;

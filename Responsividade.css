@@ -1,0 +1,8 @@
+@media (max-width: 935px) {
+	.invisivel {
+        display: none;
+    }
+    .menu-lateral {
+        display: none;
+    }
+}

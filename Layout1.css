@@ -14,12 +14,15 @@ body {
     align-items: center;
 }
 .head-e-conteudo {
+    display: flex;
     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 .conteudo-da-pagina {
     width: 935px;
     margin-top: 88px;
-    border: 0px solid blue;
+    border: 0px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,12 +31,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    border: 0px solid blue;
 }
 .invisivel {
     width: 300px;
     height: 450px;
-    border: 0px solid blue;
+    border: 0px solid red;
 }
 .feed {
     width: 614px;
